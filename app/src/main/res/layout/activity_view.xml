@@ -1,0 +1,25 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="50px"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:layout_margin="30px"
+        android:textSize="16sp"
+        android:text="post was created successfully"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:textAllCaps="false"
+        android:background="#E6B36A"
+        android:text="Back to Home"
+        android:id="@+id/menubtn"/>
+
+</LinearLayout>

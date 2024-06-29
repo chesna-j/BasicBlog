@@ -1,0 +1,41 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="50px"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:fontFamily="monospace"
+            android:text="Post Title"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20px"
+            android:hint="Enter the Title"
+            android:gravity="center"
+            android:id="@+id/title"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20px"
+            android:background="#F6E764"
+            android:id="@+id/search"
+            android:fontFamily="monospace"
+            android:textAllCaps="false"
+            android:text="Search"/>
+        <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:textAllCaps="false"
+        android:background="#E6B36A"
+            android:layout_margin="20px"
+        android:text="Back to Home"
+        android:id="@+id/menubtn"/>
+
+</LinearLayout>

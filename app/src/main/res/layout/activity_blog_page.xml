@@ -1,0 +1,66 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="50px"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:textAlignment="center"
+        android:paddingBottom="20dp"
+        android:textSize="20dp"
+        android:text="Share your story with us"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Post"
+        android:textAllCaps="false"
+        android:padding="20px"
+        android:background="#EFE486"
+        android:layout_margin="20dp"
+        android:fontFamily="monospace"
+        android:id="@+id/addpost"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Post"
+        android:textAllCaps="false"
+        android:background="#EFE486"
+        android:padding="20px"
+        android:layout_margin="20dp"
+        android:fontFamily="monospace"
+        android:id="@+id/search"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Post"
+        android:textAllCaps="false"
+        android:background="#EFE486"
+        android:padding="20px"
+        android:fontFamily="monospace"
+        android:layout_margin="20dp"
+        android:id="@+id/delete"/>
+    <androidx.appcompat.widget.AppCompatButton
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="View Post"
+         android:textAllCaps="false"
+        android:background="#EFE486"
+         android:padding="20px"
+        android:fontFamily="monospace"
+        android:layout_margin="20dp"
+         android:id="@+id/view"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E78D71"
+        android:textAllCaps="false"
+        android:layout_margin="40dp"
+        android:fontFamily="monospace"
+        android:text="Logout"
+        android:padding="20px"
+        android:id="@+id/logoutbtn"/>
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="50px"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:textAlignment="center"
+        android:fontFamily="cursive"
+        android:layout_marginBottom="150dp"
+        android:text="LifeStyle"/>
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Enter your username"
+        android:id="@+id/uname"
+        android:drawableLeft="@drawable/baseline_person_24"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Enter your password"
+        android:inputType="textPassword"
+        android:id="@+id/pass"
+        android:drawableLeft="@drawable/baseline_lock_24"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:background="#EDE17D"
+        android:layout_margin="20px"
+        android:id="@+id/logbtn"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30px"
+        android:gravity="center"
+        android:text="New here?" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="sign up"
+        android:id="@+id/signinbtn"
+        android:background="#E66138"
+        tools:ignore="InvalidId" />
+</LinearLayout>
